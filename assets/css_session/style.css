@@ -1,0 +1,30 @@
+.container_login{
+    border: 2px solid transparent;
+    padding: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+    border-radius: 10px;
+}
+#tab-login, #tab-register {
+    background-color: #f8f9fa;
+    color: #000;
+}
+
+#tab-login.active  {
+    background-color: #d47f3c;
+    color: #ffffff;
+}
+
+#tab-login.nav-link:hover  {
+    background-color: #d47f3c;
+    color: #ffffff;
+}
+
+#tab-register.active  {
+    background-color: #000;
+    color: #ffffff;
+}
+
+#tab-register.nav-link:hover  {
+    background-color: #000;
+    color: #ffffff;
+}
